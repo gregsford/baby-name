@@ -55,11 +55,5 @@ function appendItemToNamesListEl(item) {
 
     newEl.textContent = itemValue
 
-    // newEl.addEventListener("click", function () {
-    //     let exactLocationOfItemInDB = ref(database, `namesList/${itemID}`)
-
-    //     remove(exactLocationOfItemInDB)
-    // })
-
     namesListEl.append(newEl)
 }
